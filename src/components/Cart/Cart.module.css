@@ -1,0 +1,79 @@
+.cart {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cart:hover {
+    transform: scale(1.02);
+  }
+  
+  .cart h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #34495e;
+    text-align: center;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cartItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cartItem:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .cartItem input {
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .cartItem button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .cartItem button:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .cart {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .products {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
