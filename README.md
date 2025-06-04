@@ -29,7 +29,7 @@ A simple yet functional product cart application built with **React** and **Redu
 ## 🧪 How to Run
 
 1. Clone the repository:
-   
+   ```bash
    git clone https://github.com/ayeshakhzafar/Product-Cart-Using-Redux.git
 
 2. Install dependencies:
